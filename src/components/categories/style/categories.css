@@ -1,0 +1,93 @@
+@media screen and (max-width: 768px) {
+  .tracks-page .tech h1,
+  .tracks-page .non-tech h1 {
+    font-size: 2.8rem;
+  }
+}
+.tracks-page .tech .categories .box,
+.tracks-page .non-tech .categories .box {
+  position: relative;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 1;
+}
+.tracks-page .tech .categories .box::before,
+.tracks-page .non-tech .categories .box::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+}
+.tracks-page .tech .categories .box::after,
+.tracks-page .non-tech .categories .box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+  filter: blur(30px);
+}
+.tracks-page .tech .categories .box:hover:before,
+.tracks-page .tech .categories .box:hover:after,
+.tracks-page .non-tech .categories .box:hover:before,
+.tracks-page .non-tech .categories .box:hover:after {
+  transform: skewX(0deg) scaleX(1.3);
+}
+.tracks-page .tech .categories .box:before,
+.tracks-page .tech .categories .box:after,
+.tracks-page .non-tech .categories .box:before,
+.tracks-page .non-tech .categories .box:after {
+  background: linear-gradient(315deg, #adf7f2, #15aaff);
+}
+.tracks-page .tech .categories .box span,
+.tracks-page .non-tech .categories .box span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+.tracks-page .tech .categories .box .content,
+.tracks-page .non-tech .categories .box .content {
+  position: relative;
+  width: 190px;
+  height: 254px;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+  z-index: 1;
+  transform: 0.5s;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tracks-page .tech .categories .box .content h2,
+.tracks-page .non-tech .categories .box .content h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=categories.css.map */

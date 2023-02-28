@@ -1,0 +1,276 @@
+.ui .intro .heading-box h1 {
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 768px) {
+  .ui .intro .heading-box h1 {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1290px) {
+  .ui .intro .heading-box h1 {
+    font-size: 3rem;
+  }
+}
+.ui .intro .heading-box .dev {
+  letter-spacing: 50px;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .ui .intro .heading-box .dev {
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+    -webkit-text-stroke-width: 1px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1290px) {
+  .ui .intro .heading-box .dev {
+    -webkit-text-stroke-width: 1px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ui .about {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ui .about h1 {
+    font-size: 2.4rem;
+  }
+}
+.ui .about p {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+@media screen and (max-width: 768px) {
+  .ui .about p {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ui .lectures {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ui .lectures h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+}
+.ui .lectures .lec-boxs .box-1 button,
+.ui .lectures .lec-boxs .box-2 button,
+.ui .lectures .lec-boxs .box-3 button,
+.ui .lectures .lec-boxs .box-4 button {
+  padding: 0.8em 1.8em;
+  border: 2px solid #fff;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  color: #fff;
+}
+.ui .lectures .lec-boxs .box-1 button::before,
+.ui .lectures .lec-boxs .box-2 button::before,
+.ui .lectures .lec-boxs .box-3 button::before,
+.ui .lectures .lec-boxs .box-4 button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #fff;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.ui .lectures .lec-boxs .box-1 button:hover::before,
+.ui .lectures .lec-boxs .box-2 button:hover::before,
+.ui .lectures .lec-boxs .box-3 button:hover::before,
+.ui .lectures .lec-boxs .box-4 button:hover::before {
+  width: 105%;
+}
+.ui .lectures .lec-boxs .box-1 button:hover,
+.ui .lectures .lec-boxs .box-2 button:hover,
+.ui .lectures .lec-boxs .box-3 button:hover,
+.ui .lectures .lec-boxs .box-4 button:hover {
+  color: #111;
+}
+.ui .lectures .lec-boxs .box-1 .lec-1,
+.ui .lectures .lec-boxs .box-1 .lec-2,
+.ui .lectures .lec-boxs .box-1 .lec-3,
+.ui .lectures .lec-boxs .box-1 .lec-4,
+.ui .lectures .lec-boxs .box-2 .lec-1,
+.ui .lectures .lec-boxs .box-2 .lec-2,
+.ui .lectures .lec-boxs .box-2 .lec-3,
+.ui .lectures .lec-boxs .box-2 .lec-4,
+.ui .lectures .lec-boxs .box-3 .lec-1,
+.ui .lectures .lec-boxs .box-3 .lec-2,
+.ui .lectures .lec-boxs .box-3 .lec-3,
+.ui .lectures .lec-boxs .box-3 .lec-4,
+.ui .lectures .lec-boxs .box-4 .lec-1,
+.ui .lectures .lec-boxs .box-4 .lec-2,
+.ui .lectures .lec-boxs .box-4 .lec-3,
+.ui .lectures .lec-boxs .box-4 .lec-4 {
+  width: 290px;
+  height: 290px;
+  background-color: #fff;
+  color: #1a5581;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, rgba(255, 255, 255, 0.2) 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
+  transition: 0.3s;
+}
+.ui .lectures .lec-boxs .box-1 .lec-1:hover,
+.ui .lectures .lec-boxs .box-1 .lec-2:hover,
+.ui .lectures .lec-boxs .box-1 .lec-3:hover,
+.ui .lectures .lec-boxs .box-1 .lec-4:hover,
+.ui .lectures .lec-boxs .box-2 .lec-1:hover,
+.ui .lectures .lec-boxs .box-2 .lec-2:hover,
+.ui .lectures .lec-boxs .box-2 .lec-3:hover,
+.ui .lectures .lec-boxs .box-2 .lec-4:hover,
+.ui .lectures .lec-boxs .box-3 .lec-1:hover,
+.ui .lectures .lec-boxs .box-3 .lec-2:hover,
+.ui .lectures .lec-boxs .box-3 .lec-3:hover,
+.ui .lectures .lec-boxs .box-3 .lec-4:hover,
+.ui .lectures .lec-boxs .box-4 .lec-1:hover,
+.ui .lectures .lec-boxs .box-4 .lec-2:hover,
+.ui .lectures .lec-boxs .box-4 .lec-3:hover,
+.ui .lectures .lec-boxs .box-4 .lec-4:hover {
+  transform: translateY(-10px);
+}
+@media screen and (max-width: 768px) {
+  .ui .lectures .lec-boxs .box-1 .lec-1 h1,
+  .ui .lectures .lec-boxs .box-1 .lec-2 h1,
+  .ui .lectures .lec-boxs .box-1 .lec-3 h1,
+  .ui .lectures .lec-boxs .box-1 .lec-4 h1,
+  .ui .lectures .lec-boxs .box-2 .lec-1 h1,
+  .ui .lectures .lec-boxs .box-2 .lec-2 h1,
+  .ui .lectures .lec-boxs .box-2 .lec-3 h1,
+  .ui .lectures .lec-boxs .box-2 .lec-4 h1,
+  .ui .lectures .lec-boxs .box-3 .lec-1 h1,
+  .ui .lectures .lec-boxs .box-3 .lec-2 h1,
+  .ui .lectures .lec-boxs .box-3 .lec-3 h1,
+  .ui .lectures .lec-boxs .box-3 .lec-4 h1,
+  .ui .lectures .lec-boxs .box-4 .lec-1 h1,
+  .ui .lectures .lec-boxs .box-4 .lec-2 h1,
+  .ui .lectures .lec-boxs .box-4 .lec-3 h1,
+  .ui .lectures .lec-boxs .box-4 .lec-4 h1 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ui .lectures .lec-boxs .box-1 .lec-1,
+  .ui .lectures .lec-boxs .box-1 .lec-2,
+  .ui .lectures .lec-boxs .box-1 .lec-3,
+  .ui .lectures .lec-boxs .box-1 .lec-4,
+  .ui .lectures .lec-boxs .box-2 .lec-1,
+  .ui .lectures .lec-boxs .box-2 .lec-2,
+  .ui .lectures .lec-boxs .box-2 .lec-3,
+  .ui .lectures .lec-boxs .box-2 .lec-4,
+  .ui .lectures .lec-boxs .box-3 .lec-1,
+  .ui .lectures .lec-boxs .box-3 .lec-2,
+  .ui .lectures .lec-boxs .box-3 .lec-3,
+  .ui .lectures .lec-boxs .box-3 .lec-4,
+  .ui .lectures .lec-boxs .box-4 .lec-1,
+  .ui .lectures .lec-boxs .box-4 .lec-2,
+  .ui .lectures .lec-boxs .box-4 .lec-3,
+  .ui .lectures .lec-boxs .box-4 .lec-4 {
+    width: 250px;
+    height: 250px;
+  }
+}
+.ui .lectures .lec-boxs .box-1 .lec-1::before,
+.ui .lectures .lec-boxs .box-1 .lec-2::before,
+.ui .lectures .lec-boxs .box-1 .lec-3::before,
+.ui .lectures .lec-boxs .box-1 .lec-4::before,
+.ui .lectures .lec-boxs .box-2 .lec-1::before,
+.ui .lectures .lec-boxs .box-2 .lec-2::before,
+.ui .lectures .lec-boxs .box-2 .lec-3::before,
+.ui .lectures .lec-boxs .box-2 .lec-4::before,
+.ui .lectures .lec-boxs .box-3 .lec-1::before,
+.ui .lectures .lec-boxs .box-3 .lec-2::before,
+.ui .lectures .lec-boxs .box-3 .lec-3::before,
+.ui .lectures .lec-boxs .box-3 .lec-4::before,
+.ui .lectures .lec-boxs .box-4 .lec-1::before,
+.ui .lectures .lec-boxs .box-4 .lec-2::before,
+.ui .lectures .lec-boxs .box-4 .lec-3::before,
+.ui .lectures .lec-boxs .box-4 .lec-4::before {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  color: #1a5581;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.ui .lectures .lec-boxs .box-1 .lec-1::before,
+.ui .lectures .lec-boxs .box-2 .lec-1::before,
+.ui .lectures .lec-boxs .box-3 .lec-1::before,
+.ui .lectures .lec-boxs .box-4 .lec-1::before {
+  content: "01";
+}
+.ui .lectures .lec-boxs .box-1 .lec-2::before,
+.ui .lectures .lec-boxs .box-2 .lec-2::before,
+.ui .lectures .lec-boxs .box-3 .lec-2::before,
+.ui .lectures .lec-boxs .box-4 .lec-2::before {
+  content: "02";
+}
+.ui .lectures .lec-boxs .box-1 .lec-3::before,
+.ui .lectures .lec-boxs .box-2 .lec-3::before,
+.ui .lectures .lec-boxs .box-3 .lec-3::before,
+.ui .lectures .lec-boxs .box-4 .lec-3::before {
+  content: "03";
+}
+.ui .lectures .lec-boxs .box-1 .lec-4::before,
+.ui .lectures .lec-boxs .box-2 .lec-4::before,
+.ui .lectures .lec-boxs .box-3 .lec-4::before,
+.ui .lectures .lec-boxs .box-4 .lec-4::before {
+  content: "04";
+}
+.ui .team .cards .card {
+  width: 190px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+.ui .team .cards .card-inner {
+  width: inherit;
+  height: inherit;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.ui .team .cards .card-inner img {
+  width: 100%;
+  height: 100%;
+}
+.ui .team .cards .card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+.ui .team .cards .circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#adf7f2, #15aaff);
+  border-radius: 50%;
+  position: absolute;
+}
+.ui .team .cards .circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+.ui .team .cards .circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+}/*# sourceMappingURL=ui.css.map */

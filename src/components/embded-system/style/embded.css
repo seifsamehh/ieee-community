@@ -1,0 +1,265 @@
+.embded .intro .heading-box h1 {
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 768px) {
+  .embded .intro .heading-box h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1290px) {
+  .embded .intro .heading-box h1 {
+    font-size: 3rem;
+  }
+}
+.embded .intro .heading-box .dev {
+  letter-spacing: 50px;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .embded .intro .heading-box .dev {
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+    -webkit-text-stroke-width: 1px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1290px) {
+  .embded .intro .heading-box .dev {
+    -webkit-text-stroke-width: 1px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .embded .about {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .embded .about h1 {
+    font-size: 2.4rem;
+  }
+}
+.embded .about p {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+@media screen and (max-width: 768px) {
+  .embded .about p {
+    padding: 1rem;
+  }
+}
+.embded .roadmap {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+  .embded .roadmap h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .embded .roadmap .boxs {
+    flex-direction: column;
+  }
+}
+.embded .roadmap .boxs .box-1,
+.embded .roadmap .boxs .box-2,
+.embded .roadmap .boxs .box-3,
+.embded .roadmap .boxs .box-4,
+.embded .roadmap .boxs .box-5,
+.embded .roadmap .boxs .box-6 {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: 0.5s;
+}
+@media screen and (max-width: 768px) {
+  .embded .roadmap .boxs .box-1,
+  .embded .roadmap .boxs .box-2,
+  .embded .roadmap .boxs .box-3,
+  .embded .roadmap .boxs .box-4,
+  .embded .roadmap .boxs .box-5,
+  .embded .roadmap .boxs .box-6 {
+    width: 100%;
+    height: 100%;
+  }
+}
+.embded .roadmap .boxs .box-1 p,
+.embded .roadmap .boxs .box-2 p,
+.embded .roadmap .boxs .box-3 p,
+.embded .roadmap .boxs .box-4 p,
+.embded .roadmap .boxs .box-5 p,
+.embded .roadmap .boxs .box-6 p {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .embded .roadmap .boxs .box-1 h1,
+  .embded .roadmap .boxs .box-2 h1,
+  .embded .roadmap .boxs .box-3 h1,
+  .embded .roadmap .boxs .box-4 h1,
+  .embded .roadmap .boxs .box-5 h1,
+  .embded .roadmap .boxs .box-6 h1 {
+    font-size: 1.5rem;
+  }
+}
+.embded .roadmap .boxs .box-1 img,
+.embded .roadmap .boxs .box-2 img,
+.embded .roadmap .boxs .box-3 img,
+.embded .roadmap .boxs .box-4 img,
+.embded .roadmap .boxs .box-5 img,
+.embded .roadmap .boxs .box-6 img {
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .embded .roadmap .boxs .box-1 img,
+  .embded .roadmap .boxs .box-2 img,
+  .embded .roadmap .boxs .box-3 img,
+  .embded .roadmap .boxs .box-4 img,
+  .embded .roadmap .boxs .box-5 img,
+  .embded .roadmap .boxs .box-6 img {
+    width: 50%;
+  }
+}
+.embded .roadmap .boxs .box-1:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #1a5581;
+}
+.embded .roadmap .boxs .box-2:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #1a5581;
+}
+.embded .roadmap .boxs .box-3:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #1a5581;
+}
+.embded .roadmap .boxs .box-4:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #1a5581;
+}
+.embded .roadmap .boxs .box-5:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #1a5581;
+}
+.embded .roadmap .boxs .box-6:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #1a5581;
+}
+@media screen and (max-width: 768px) {
+  .embded .lectures {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .embded .lectures h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+}
+.embded .lectures .lec-boxs .box-1 .lec-1,
+.embded .lectures .lec-boxs .box-1 .lec-2,
+.embded .lectures .lec-boxs .box-2 .lec-1,
+.embded .lectures .lec-boxs .box-2 .lec-2 {
+  width: 290px;
+  height: 290px;
+  background-color: #fff;
+  color: #1a5581;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, rgba(255, 255, 255, 0.2) 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
+  transition: 0.3s;
+}
+.embded .lectures .lec-boxs .box-1 .lec-1:hover,
+.embded .lectures .lec-boxs .box-1 .lec-2:hover,
+.embded .lectures .lec-boxs .box-2 .lec-1:hover,
+.embded .lectures .lec-boxs .box-2 .lec-2:hover {
+  transform: translateY(-10px);
+}
+@media screen and (max-width: 768px) {
+  .embded .lectures .lec-boxs .box-1 .lec-1 h1,
+  .embded .lectures .lec-boxs .box-1 .lec-2 h1,
+  .embded .lectures .lec-boxs .box-2 .lec-1 h1,
+  .embded .lectures .lec-boxs .box-2 .lec-2 h1 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .embded .lectures .lec-boxs .box-1 .lec-1,
+  .embded .lectures .lec-boxs .box-1 .lec-2,
+  .embded .lectures .lec-boxs .box-2 .lec-1,
+  .embded .lectures .lec-boxs .box-2 .lec-2 {
+    width: 250px;
+    height: 250px;
+  }
+}
+.embded .lectures .lec-boxs .box-1 .lec-1::before,
+.embded .lectures .lec-boxs .box-1 .lec-2::before,
+.embded .lectures .lec-boxs .box-2 .lec-1::before,
+.embded .lectures .lec-boxs .box-2 .lec-2::before {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  color: #1a5581;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.embded .lectures .lec-boxs .box-1 .lec-1::before,
+.embded .lectures .lec-boxs .box-2 .lec-1::before {
+  content: "01";
+}
+.embded .lectures .lec-boxs .box-1 .lec-1::before,
+.embded .lectures .lec-boxs .box-2 .lec-1::before {
+  content: "02";
+}
+.embded .team .cards .card {
+  width: 190px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+.embded .team .cards .card-inner {
+  width: inherit;
+  height: inherit;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.embded .team .cards .card-inner img {
+  width: 100%;
+  height: 100%;
+}
+.embded .team .cards .card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+.embded .team .cards .circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#adf7f2, #15aaff);
+  border-radius: 50%;
+  position: absolute;
+}
+.embded .team .cards .circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+.embded .team .cards .circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+}/*# sourceMappingURL=embded.css.map */

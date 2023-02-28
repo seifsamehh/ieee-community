@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;500;800&display=swap");
+.header-ar {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .header-ar {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+}
+.header-ar img {
+  width: 20%;
+}
+@media screen and (max-width: 768px) {
+  .header-ar img {
+    width: 100%;
+  }
+}
+.header-ar button {
+  font-size: 1.3rem !important;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.nav {
+  font-family: "Noto Sans Arabic", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: 0.3s;
+}
+.nav button {
+  cursor: pointer !important;
+}
+
+.nav.active {
+  background-color: #fff;
+  color: #1a5581;
+}
+.nav.active img {
+  background-color: #1a5581;
+}/*# sourceMappingURL=header-ar.css.map */

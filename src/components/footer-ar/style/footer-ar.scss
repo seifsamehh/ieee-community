@@ -1,0 +1,70 @@
+// start fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;500;800&display=swap');
+// end fonts
+// start global variables
+$main-color: #1a5581;
+$light: #fff;
+// end global variables
+.footer-ar {
+    cursor: auto;
+    background-color: $light;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    @media screen and (max-width: 768px) {
+        flex-wrap: wrap-reverse;
+        gap: 1rem;
+    }
+    .logo {
+        width: 100%;
+        background-color: $main-color;
+    }
+    .content {
+        width: 100%;
+        p {
+            color: $main-color;
+            font-weight: 800;
+        }
+        .seif {
+            color: #000;
+            a {
+                --text: #2B3044;
+                --line: #BBC1E1;
+                --line-active: #1a5581;
+                position: relative;
+                color: $main-color;
+                margin: 0 var(--spacing, 0px);
+                padding-left: .5rem;
+                transition: margin .25s;
+                svg {
+                    cursor: pointer;
+                    width: 340px;
+                    height: 58px;
+                    position: absolute;
+                    left: 55%;
+                    bottom: -5px;
+                    transform: translate(-50%, 7px) translateZ(0);
+                    fill: none;
+                    stroke: var(--stroke, var(--line));
+                    stroke-linecap: round;
+                    stroke-width: 2px;
+                    stroke-dasharray: var(--offset, 69px) 278px;
+                    stroke-dashoffset: 361px;
+                    transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
+                    @media screen and (max-width: 768px) {
+                        width: 130px;
+                    }
+                }
+                &:hover {
+                    --spacing: 4px;
+                    --stroke: var(--line-active);
+                    --stroke-delay: .1s;
+                    --offset: 180px;
+                }
+            }
+        }
+    }
+    .quote {
+        width: 100%;
+        color: $main-color;
+    }
+}

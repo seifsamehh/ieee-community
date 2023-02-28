@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;500;800&display=swap");
+.arabic {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+.intro-ar .heading-box .dev {
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .about-ar h1 {
+    font-size: 2.4rem;
+  }
+}
+.about-ar p {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+@media screen and (max-width: 768px) {
+  .about-ar p {
+    padding: 1rem;
+  }
+}
+
+.roadmap-ar {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+  .roadmap-ar .boxs {
+    flex-direction: column;
+  }
+}
+.roadmap-ar .boxs .box-1,
+.roadmap-ar .boxs .box-2,
+.roadmap-ar .boxs .box-3,
+.roadmap-ar .boxs .box-4,
+.roadmap-ar .boxs .box-5,
+.roadmap-ar .boxs .box-6,
+.roadmap-ar .boxs .box-7,
+.roadmap-ar .boxs .box-8,
+.roadmap-ar .boxs .box-9,
+.roadmap-ar .boxs .box-10,
+.roadmap-ar .boxs .box-11,
+.roadmap-ar .boxs .box-12,
+.roadmap-ar .boxs .box-13,
+.roadmap-ar .boxs .box-14,
+.roadmap-ar .boxs .box-15,
+.roadmap-ar .boxs .box-16,
+.roadmap-ar .boxs .box-17,
+.roadmap-ar .boxs .box-18,
+.roadmap-ar .boxs .box-19 {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: 0.5s;
+}
+@media screen and (max-width: 768px) {
+  .roadmap-ar .boxs .box-1,
+  .roadmap-ar .boxs .box-2,
+  .roadmap-ar .boxs .box-3,
+  .roadmap-ar .boxs .box-4,
+  .roadmap-ar .boxs .box-5,
+  .roadmap-ar .boxs .box-6,
+  .roadmap-ar .boxs .box-7,
+  .roadmap-ar .boxs .box-8,
+  .roadmap-ar .boxs .box-9,
+  .roadmap-ar .boxs .box-10,
+  .roadmap-ar .boxs .box-11,
+  .roadmap-ar .boxs .box-12,
+  .roadmap-ar .boxs .box-13,
+  .roadmap-ar .boxs .box-14,
+  .roadmap-ar .boxs .box-15,
+  .roadmap-ar .boxs .box-16,
+  .roadmap-ar .boxs .box-17,
+  .roadmap-ar .boxs .box-18,
+  .roadmap-ar .boxs .box-19 {
+    width: 100%;
+    height: 100%;
+  }
+}
+.roadmap-ar .boxs .box-1 p,
+.roadmap-ar .boxs .box-2 p,
+.roadmap-ar .boxs .box-3 p,
+.roadmap-ar .boxs .box-4 p,
+.roadmap-ar .boxs .box-5 p,
+.roadmap-ar .boxs .box-6 p,
+.roadmap-ar .boxs .box-7 p,
+.roadmap-ar .boxs .box-8 p,
+.roadmap-ar .boxs .box-9 p,
+.roadmap-ar .boxs .box-10 p,
+.roadmap-ar .boxs .box-11 p,
+.roadmap-ar .boxs .box-12 p,
+.roadmap-ar .boxs .box-13 p,
+.roadmap-ar .boxs .box-14 p,
+.roadmap-ar .boxs .box-15 p,
+.roadmap-ar .boxs .box-16 p,
+.roadmap-ar .boxs .box-17 p,
+.roadmap-ar .boxs .box-18 p,
+.roadmap-ar .boxs .box-19 p {
+  text-align: center;
+}
+.roadmap-ar .boxs .box-1 img,
+.roadmap-ar .boxs .box-2 img,
+.roadmap-ar .boxs .box-3 img,
+.roadmap-ar .boxs .box-4 img,
+.roadmap-ar .boxs .box-5 img,
+.roadmap-ar .boxs .box-6 img,
+.roadmap-ar .boxs .box-7 img,
+.roadmap-ar .boxs .box-8 img,
+.roadmap-ar .boxs .box-9 img,
+.roadmap-ar .boxs .box-10 img,
+.roadmap-ar .boxs .box-11 img,
+.roadmap-ar .boxs .box-12 img,
+.roadmap-ar .boxs .box-13 img,
+.roadmap-ar .boxs .box-14 img,
+.roadmap-ar .boxs .box-15 img,
+.roadmap-ar .boxs .box-16 img,
+.roadmap-ar .boxs .box-17 img,
+.roadmap-ar .boxs .box-18 img,
+.roadmap-ar .boxs .box-19 img {
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .roadmap-ar .boxs .box-1 img,
+  .roadmap-ar .boxs .box-2 img,
+  .roadmap-ar .boxs .box-3 img,
+  .roadmap-ar .boxs .box-4 img,
+  .roadmap-ar .boxs .box-5 img,
+  .roadmap-ar .boxs .box-6 img,
+  .roadmap-ar .boxs .box-7 img,
+  .roadmap-ar .boxs .box-8 img,
+  .roadmap-ar .boxs .box-9 img,
+  .roadmap-ar .boxs .box-10 img,
+  .roadmap-ar .boxs .box-11 img,
+  .roadmap-ar .boxs .box-12 img,
+  .roadmap-ar .boxs .box-13 img,
+  .roadmap-ar .boxs .box-14 img,
+  .roadmap-ar .boxs .box-15 img,
+  .roadmap-ar .boxs .box-16 img,
+  .roadmap-ar .boxs .box-17 img,
+  .roadmap-ar .boxs .box-18 img,
+  .roadmap-ar .boxs .box-19 img {
+    width: 50%;
+  }
+}
+.roadmap-ar .boxs .box-1:hover {
+  background-color: #f16529;
+  border: 2px solid #f16529;
+}
+.roadmap-ar .boxs .box-1 button {
+  padding: 0.8em 1.8em;
+  border: 2px solid #fff;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  color: #fff;
+}
+.roadmap-ar .boxs .box-1 button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #fff;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.roadmap-ar .boxs .box-1 button:hover::before {
+  width: 105%;
+}
+.roadmap-ar .boxs .box-1 button:hover {
+  color: #111;
+}
+.roadmap-ar .boxs .box-2:hover {
+  background-color: #3a9cd2;
+  border: 2px solid #3a9cd2;
+}
+.roadmap-ar .boxs .box-3:hover {
+  background-color: #7611f7;
+  border: 2px solid #7611f7;
+}
+.roadmap-ar .boxs .box-4:hover {
+  background-color: #0ea5e9;
+  border: 2px solid #0ea5e9;
+}
+.roadmap-ar .boxs .box-5:hover {
+  background-color: #d46ea3;
+  border: 2px solid #d46ea3;
+}
+.roadmap-ar .boxs .box-6:hover {
+  background-color: #f7df1e;
+  border: 2px solid #f7df1e;
+}
+.roadmap-ar .boxs .box-7:hover {
+  background-color: #0868ab;
+  border: 2px solid #0868ab;
+}
+.roadmap-ar .boxs .box-8:hover {
+  background-color: #5f94b2;
+  border: 2px solid #5f94b2;
+}
+.roadmap-ar .boxs .box-9:hover {
+  background-color: #2d2d2d;
+  border: 2px solid #2d2d2d;
+}
+.roadmap-ar .boxs .box-10:hover {
+  background-color: #f34f29;
+  border: 2px solid #f34f29;
+}
+.roadmap-ar .boxs .box-11:hover {
+  background-color: #181516;
+  border: 2px solid #181516;
+}
+.roadmap-ar .boxs .box-12:hover {
+  background-color: #e32e37;
+  border: 2px solid #e32e37;
+}
+.roadmap-ar .boxs .box-13:hover {
+  background-color: #e84c51;
+  border: 2px solid #e84c51;
+}
+.roadmap-ar .boxs .box-14:hover {
+  background-color: #9d4956;
+  border: 2px solid #9d4956;
+}
+.roadmap-ar .boxs .box-15:hover {
+  background-color: #72dbf7;
+  border: 2px solid #72dbf7;
+}
+.roadmap-ar .boxs .box-16:hover {
+  background-color: #16a2db;
+  border: 2px solid #16a2db;
+}
+.roadmap-ar .boxs .box-17:hover {
+  background-color: #777bb3;
+  border: 2px solid #777bb3;
+}
+.roadmap-ar .boxs .box-18:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #e83129;
+}
+.roadmap-ar .boxs .box-19:hover {
+  background-color: #e4900e;
+  border: 2px solid #e4900e;
+}
+.roadmap-ar .boxs .box-20 p {
+  font-size: 1.4rem;
+}
+.roadmap-ar .boxs .box-20:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #1a5581;
+}
+
+@media screen and (max-width: 768px) {
+  .lectures-ar {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lectures-ar h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+}
+.lectures-ar .lec-boxs .box-1 button,
+.lectures-ar .lec-boxs .box-2 button,
+.lectures-ar .lec-boxs .box-3 button,
+.lectures-ar .lec-boxs .box-4 button,
+.lectures-ar .lec-boxs .box-5 button,
+.lectures-ar .lec-boxs .box-6 button,
+.lectures-ar .lec-boxs .box-7 button {
+  padding: 0.8em 1.8em;
+  border: 2px solid #fff;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  color: #fff;
+}
+.lectures-ar .lec-boxs .box-1 button::before,
+.lectures-ar .lec-boxs .box-2 button::before,
+.lectures-ar .lec-boxs .box-3 button::before,
+.lectures-ar .lec-boxs .box-4 button::before,
+.lectures-ar .lec-boxs .box-5 button::before,
+.lectures-ar .lec-boxs .box-6 button::before,
+.lectures-ar .lec-boxs .box-7 button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #fff;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.lectures-ar .lec-boxs .box-1 button:hover::before,
+.lectures-ar .lec-boxs .box-2 button:hover::before,
+.lectures-ar .lec-boxs .box-3 button:hover::before,
+.lectures-ar .lec-boxs .box-4 button:hover::before,
+.lectures-ar .lec-boxs .box-5 button:hover::before,
+.lectures-ar .lec-boxs .box-6 button:hover::before,
+.lectures-ar .lec-boxs .box-7 button:hover::before {
+  width: 105%;
+}
+.lectures-ar .lec-boxs .box-1 button:hover,
+.lectures-ar .lec-boxs .box-2 button:hover,
+.lectures-ar .lec-boxs .box-3 button:hover,
+.lectures-ar .lec-boxs .box-4 button:hover,
+.lectures-ar .lec-boxs .box-5 button:hover,
+.lectures-ar .lec-boxs .box-6 button:hover,
+.lectures-ar .lec-boxs .box-7 button:hover {
+  color: #111;
+}
+.lectures-ar .lec-boxs .box-1 .lec-1,
+.lectures-ar .lec-boxs .box-1 .lec-2,
+.lectures-ar .lec-boxs .box-1 .lec-3,
+.lectures-ar .lec-boxs .box-1 .lec-4,
+.lectures-ar .lec-boxs .box-1 .lec-5,
+.lectures-ar .lec-boxs .box-1 .lec-6,
+.lectures-ar .lec-boxs .box-1 .lec-7,
+.lectures-ar .lec-boxs .box-2 .lec-1,
+.lectures-ar .lec-boxs .box-2 .lec-2,
+.lectures-ar .lec-boxs .box-2 .lec-3,
+.lectures-ar .lec-boxs .box-2 .lec-4,
+.lectures-ar .lec-boxs .box-2 .lec-5,
+.lectures-ar .lec-boxs .box-2 .lec-6,
+.lectures-ar .lec-boxs .box-2 .lec-7,
+.lectures-ar .lec-boxs .box-3 .lec-1,
+.lectures-ar .lec-boxs .box-3 .lec-2,
+.lectures-ar .lec-boxs .box-3 .lec-3,
+.lectures-ar .lec-boxs .box-3 .lec-4,
+.lectures-ar .lec-boxs .box-3 .lec-5,
+.lectures-ar .lec-boxs .box-3 .lec-6,
+.lectures-ar .lec-boxs .box-3 .lec-7,
+.lectures-ar .lec-boxs .box-4 .lec-1,
+.lectures-ar .lec-boxs .box-4 .lec-2,
+.lectures-ar .lec-boxs .box-4 .lec-3,
+.lectures-ar .lec-boxs .box-4 .lec-4,
+.lectures-ar .lec-boxs .box-4 .lec-5,
+.lectures-ar .lec-boxs .box-4 .lec-6,
+.lectures-ar .lec-boxs .box-4 .lec-7,
+.lectures-ar .lec-boxs .box-5 .lec-1,
+.lectures-ar .lec-boxs .box-5 .lec-2,
+.lectures-ar .lec-boxs .box-5 .lec-3,
+.lectures-ar .lec-boxs .box-5 .lec-4,
+.lectures-ar .lec-boxs .box-5 .lec-5,
+.lectures-ar .lec-boxs .box-5 .lec-6,
+.lectures-ar .lec-boxs .box-5 .lec-7,
+.lectures-ar .lec-boxs .box-6 .lec-1,
+.lectures-ar .lec-boxs .box-6 .lec-2,
+.lectures-ar .lec-boxs .box-6 .lec-3,
+.lectures-ar .lec-boxs .box-6 .lec-4,
+.lectures-ar .lec-boxs .box-6 .lec-5,
+.lectures-ar .lec-boxs .box-6 .lec-6,
+.lectures-ar .lec-boxs .box-6 .lec-7,
+.lectures-ar .lec-boxs .box-7 .lec-1,
+.lectures-ar .lec-boxs .box-7 .lec-2,
+.lectures-ar .lec-boxs .box-7 .lec-3,
+.lectures-ar .lec-boxs .box-7 .lec-4,
+.lectures-ar .lec-boxs .box-7 .lec-5,
+.lectures-ar .lec-boxs .box-7 .lec-6,
+.lectures-ar .lec-boxs .box-7 .lec-7 {
+  width: 290px;
+  height: 290px;
+  background-color: #fff;
+  color: #1a5581;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, rgba(255, 255, 255, 0.2) 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
+  transition: 0.3s;
+}
+.lectures-ar .lec-boxs .box-1 .lec-1:hover,
+.lectures-ar .lec-boxs .box-1 .lec-2:hover,
+.lectures-ar .lec-boxs .box-1 .lec-3:hover,
+.lectures-ar .lec-boxs .box-1 .lec-4:hover,
+.lectures-ar .lec-boxs .box-1 .lec-5:hover,
+.lectures-ar .lec-boxs .box-1 .lec-6:hover,
+.lectures-ar .lec-boxs .box-1 .lec-7:hover,
+.lectures-ar .lec-boxs .box-2 .lec-1:hover,
+.lectures-ar .lec-boxs .box-2 .lec-2:hover,
+.lectures-ar .lec-boxs .box-2 .lec-3:hover,
+.lectures-ar .lec-boxs .box-2 .lec-4:hover,
+.lectures-ar .lec-boxs .box-2 .lec-5:hover,
+.lectures-ar .lec-boxs .box-2 .lec-6:hover,
+.lectures-ar .lec-boxs .box-2 .lec-7:hover,
+.lectures-ar .lec-boxs .box-3 .lec-1:hover,
+.lectures-ar .lec-boxs .box-3 .lec-2:hover,
+.lectures-ar .lec-boxs .box-3 .lec-3:hover,
+.lectures-ar .lec-boxs .box-3 .lec-4:hover,
+.lectures-ar .lec-boxs .box-3 .lec-5:hover,
+.lectures-ar .lec-boxs .box-3 .lec-6:hover,
+.lectures-ar .lec-boxs .box-3 .lec-7:hover,
+.lectures-ar .lec-boxs .box-4 .lec-1:hover,
+.lectures-ar .lec-boxs .box-4 .lec-2:hover,
+.lectures-ar .lec-boxs .box-4 .lec-3:hover,
+.lectures-ar .lec-boxs .box-4 .lec-4:hover,
+.lectures-ar .lec-boxs .box-4 .lec-5:hover,
+.lectures-ar .lec-boxs .box-4 .lec-6:hover,
+.lectures-ar .lec-boxs .box-4 .lec-7:hover,
+.lectures-ar .lec-boxs .box-5 .lec-1:hover,
+.lectures-ar .lec-boxs .box-5 .lec-2:hover,
+.lectures-ar .lec-boxs .box-5 .lec-3:hover,
+.lectures-ar .lec-boxs .box-5 .lec-4:hover,
+.lectures-ar .lec-boxs .box-5 .lec-5:hover,
+.lectures-ar .lec-boxs .box-5 .lec-6:hover,
+.lectures-ar .lec-boxs .box-5 .lec-7:hover,
+.lectures-ar .lec-boxs .box-6 .lec-1:hover,
+.lectures-ar .lec-boxs .box-6 .lec-2:hover,
+.lectures-ar .lec-boxs .box-6 .lec-3:hover,
+.lectures-ar .lec-boxs .box-6 .lec-4:hover,
+.lectures-ar .lec-boxs .box-6 .lec-5:hover,
+.lectures-ar .lec-boxs .box-6 .lec-6:hover,
+.lectures-ar .lec-boxs .box-6 .lec-7:hover,
+.lectures-ar .lec-boxs .box-7 .lec-1:hover,
+.lectures-ar .lec-boxs .box-7 .lec-2:hover,
+.lectures-ar .lec-boxs .box-7 .lec-3:hover,
+.lectures-ar .lec-boxs .box-7 .lec-4:hover,
+.lectures-ar .lec-boxs .box-7 .lec-5:hover,
+.lectures-ar .lec-boxs .box-7 .lec-6:hover,
+.lectures-ar .lec-boxs .box-7 .lec-7:hover {
+  transform: translateY(-10px);
+}
+@media screen and (max-width: 768px) {
+  .lectures-ar .lec-boxs .box-1 .lec-1 h1,
+  .lectures-ar .lec-boxs .box-1 .lec-2 h1,
+  .lectures-ar .lec-boxs .box-1 .lec-3 h1,
+  .lectures-ar .lec-boxs .box-1 .lec-4 h1,
+  .lectures-ar .lec-boxs .box-1 .lec-5 h1,
+  .lectures-ar .lec-boxs .box-1 .lec-6 h1,
+  .lectures-ar .lec-boxs .box-1 .lec-7 h1,
+  .lectures-ar .lec-boxs .box-2 .lec-1 h1,
+  .lectures-ar .lec-boxs .box-2 .lec-2 h1,
+  .lectures-ar .lec-boxs .box-2 .lec-3 h1,
+  .lectures-ar .lec-boxs .box-2 .lec-4 h1,
+  .lectures-ar .lec-boxs .box-2 .lec-5 h1,
+  .lectures-ar .lec-boxs .box-2 .lec-6 h1,
+  .lectures-ar .lec-boxs .box-2 .lec-7 h1,
+  .lectures-ar .lec-boxs .box-3 .lec-1 h1,
+  .lectures-ar .lec-boxs .box-3 .lec-2 h1,
+  .lectures-ar .lec-boxs .box-3 .lec-3 h1,
+  .lectures-ar .lec-boxs .box-3 .lec-4 h1,
+  .lectures-ar .lec-boxs .box-3 .lec-5 h1,
+  .lectures-ar .lec-boxs .box-3 .lec-6 h1,
+  .lectures-ar .lec-boxs .box-3 .lec-7 h1,
+  .lectures-ar .lec-boxs .box-4 .lec-1 h1,
+  .lectures-ar .lec-boxs .box-4 .lec-2 h1,
+  .lectures-ar .lec-boxs .box-4 .lec-3 h1,
+  .lectures-ar .lec-boxs .box-4 .lec-4 h1,
+  .lectures-ar .lec-boxs .box-4 .lec-5 h1,
+  .lectures-ar .lec-boxs .box-4 .lec-6 h1,
+  .lectures-ar .lec-boxs .box-4 .lec-7 h1,
+  .lectures-ar .lec-boxs .box-5 .lec-1 h1,
+  .lectures-ar .lec-boxs .box-5 .lec-2 h1,
+  .lectures-ar .lec-boxs .box-5 .lec-3 h1,
+  .lectures-ar .lec-boxs .box-5 .lec-4 h1,
+  .lectures-ar .lec-boxs .box-5 .lec-5 h1,
+  .lectures-ar .lec-boxs .box-5 .lec-6 h1,
+  .lectures-ar .lec-boxs .box-5 .lec-7 h1,
+  .lectures-ar .lec-boxs .box-6 .lec-1 h1,
+  .lectures-ar .lec-boxs .box-6 .lec-2 h1,
+  .lectures-ar .lec-boxs .box-6 .lec-3 h1,
+  .lectures-ar .lec-boxs .box-6 .lec-4 h1,
+  .lectures-ar .lec-boxs .box-6 .lec-5 h1,
+  .lectures-ar .lec-boxs .box-6 .lec-6 h1,
+  .lectures-ar .lec-boxs .box-6 .lec-7 h1,
+  .lectures-ar .lec-boxs .box-7 .lec-1 h1,
+  .lectures-ar .lec-boxs .box-7 .lec-2 h1,
+  .lectures-ar .lec-boxs .box-7 .lec-3 h1,
+  .lectures-ar .lec-boxs .box-7 .lec-4 h1,
+  .lectures-ar .lec-boxs .box-7 .lec-5 h1,
+  .lectures-ar .lec-boxs .box-7 .lec-6 h1,
+  .lectures-ar .lec-boxs .box-7 .lec-7 h1 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lectures-ar .lec-boxs .box-1 .lec-1,
+  .lectures-ar .lec-boxs .box-1 .lec-2,
+  .lectures-ar .lec-boxs .box-1 .lec-3,
+  .lectures-ar .lec-boxs .box-1 .lec-4,
+  .lectures-ar .lec-boxs .box-1 .lec-5,
+  .lectures-ar .lec-boxs .box-1 .lec-6,
+  .lectures-ar .lec-boxs .box-1 .lec-7,
+  .lectures-ar .lec-boxs .box-2 .lec-1,
+  .lectures-ar .lec-boxs .box-2 .lec-2,
+  .lectures-ar .lec-boxs .box-2 .lec-3,
+  .lectures-ar .lec-boxs .box-2 .lec-4,
+  .lectures-ar .lec-boxs .box-2 .lec-5,
+  .lectures-ar .lec-boxs .box-2 .lec-6,
+  .lectures-ar .lec-boxs .box-2 .lec-7,
+  .lectures-ar .lec-boxs .box-3 .lec-1,
+  .lectures-ar .lec-boxs .box-3 .lec-2,
+  .lectures-ar .lec-boxs .box-3 .lec-3,
+  .lectures-ar .lec-boxs .box-3 .lec-4,
+  .lectures-ar .lec-boxs .box-3 .lec-5,
+  .lectures-ar .lec-boxs .box-3 .lec-6,
+  .lectures-ar .lec-boxs .box-3 .lec-7,
+  .lectures-ar .lec-boxs .box-4 .lec-1,
+  .lectures-ar .lec-boxs .box-4 .lec-2,
+  .lectures-ar .lec-boxs .box-4 .lec-3,
+  .lectures-ar .lec-boxs .box-4 .lec-4,
+  .lectures-ar .lec-boxs .box-4 .lec-5,
+  .lectures-ar .lec-boxs .box-4 .lec-6,
+  .lectures-ar .lec-boxs .box-4 .lec-7,
+  .lectures-ar .lec-boxs .box-5 .lec-1,
+  .lectures-ar .lec-boxs .box-5 .lec-2,
+  .lectures-ar .lec-boxs .box-5 .lec-3,
+  .lectures-ar .lec-boxs .box-5 .lec-4,
+  .lectures-ar .lec-boxs .box-5 .lec-5,
+  .lectures-ar .lec-boxs .box-5 .lec-6,
+  .lectures-ar .lec-boxs .box-5 .lec-7,
+  .lectures-ar .lec-boxs .box-6 .lec-1,
+  .lectures-ar .lec-boxs .box-6 .lec-2,
+  .lectures-ar .lec-boxs .box-6 .lec-3,
+  .lectures-ar .lec-boxs .box-6 .lec-4,
+  .lectures-ar .lec-boxs .box-6 .lec-5,
+  .lectures-ar .lec-boxs .box-6 .lec-6,
+  .lectures-ar .lec-boxs .box-6 .lec-7,
+  .lectures-ar .lec-boxs .box-7 .lec-1,
+  .lectures-ar .lec-boxs .box-7 .lec-2,
+  .lectures-ar .lec-boxs .box-7 .lec-3,
+  .lectures-ar .lec-boxs .box-7 .lec-4,
+  .lectures-ar .lec-boxs .box-7 .lec-5,
+  .lectures-ar .lec-boxs .box-7 .lec-6,
+  .lectures-ar .lec-boxs .box-7 .lec-7 {
+    width: 250px;
+    height: 250px;
+  }
+}
+.lectures-ar .lec-boxs .box-1 .lec-1::before,
+.lectures-ar .lec-boxs .box-1 .lec-2::before,
+.lectures-ar .lec-boxs .box-1 .lec-3::before,
+.lectures-ar .lec-boxs .box-1 .lec-4::before,
+.lectures-ar .lec-boxs .box-1 .lec-5::before,
+.lectures-ar .lec-boxs .box-1 .lec-6::before,
+.lectures-ar .lec-boxs .box-1 .lec-7::before,
+.lectures-ar .lec-boxs .box-2 .lec-1::before,
+.lectures-ar .lec-boxs .box-2 .lec-2::before,
+.lectures-ar .lec-boxs .box-2 .lec-3::before,
+.lectures-ar .lec-boxs .box-2 .lec-4::before,
+.lectures-ar .lec-boxs .box-2 .lec-5::before,
+.lectures-ar .lec-boxs .box-2 .lec-6::before,
+.lectures-ar .lec-boxs .box-2 .lec-7::before,
+.lectures-ar .lec-boxs .box-3 .lec-1::before,
+.lectures-ar .lec-boxs .box-3 .lec-2::before,
+.lectures-ar .lec-boxs .box-3 .lec-3::before,
+.lectures-ar .lec-boxs .box-3 .lec-4::before,
+.lectures-ar .lec-boxs .box-3 .lec-5::before,
+.lectures-ar .lec-boxs .box-3 .lec-6::before,
+.lectures-ar .lec-boxs .box-3 .lec-7::before,
+.lectures-ar .lec-boxs .box-4 .lec-1::before,
+.lectures-ar .lec-boxs .box-4 .lec-2::before,
+.lectures-ar .lec-boxs .box-4 .lec-3::before,
+.lectures-ar .lec-boxs .box-4 .lec-4::before,
+.lectures-ar .lec-boxs .box-4 .lec-5::before,
+.lectures-ar .lec-boxs .box-4 .lec-6::before,
+.lectures-ar .lec-boxs .box-4 .lec-7::before,
+.lectures-ar .lec-boxs .box-5 .lec-1::before,
+.lectures-ar .lec-boxs .box-5 .lec-2::before,
+.lectures-ar .lec-boxs .box-5 .lec-3::before,
+.lectures-ar .lec-boxs .box-5 .lec-4::before,
+.lectures-ar .lec-boxs .box-5 .lec-5::before,
+.lectures-ar .lec-boxs .box-5 .lec-6::before,
+.lectures-ar .lec-boxs .box-5 .lec-7::before,
+.lectures-ar .lec-boxs .box-6 .lec-1::before,
+.lectures-ar .lec-boxs .box-6 .lec-2::before,
+.lectures-ar .lec-boxs .box-6 .lec-3::before,
+.lectures-ar .lec-boxs .box-6 .lec-4::before,
+.lectures-ar .lec-boxs .box-6 .lec-5::before,
+.lectures-ar .lec-boxs .box-6 .lec-6::before,
+.lectures-ar .lec-boxs .box-6 .lec-7::before,
+.lectures-ar .lec-boxs .box-7 .lec-1::before,
+.lectures-ar .lec-boxs .box-7 .lec-2::before,
+.lectures-ar .lec-boxs .box-7 .lec-3::before,
+.lectures-ar .lec-boxs .box-7 .lec-4::before,
+.lectures-ar .lec-boxs .box-7 .lec-5::before,
+.lectures-ar .lec-boxs .box-7 .lec-6::before,
+.lectures-ar .lec-boxs .box-7 .lec-7::before {
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  color: #1a5581;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.lectures-ar .lec-boxs .box-1 .lec-1::before,
+.lectures-ar .lec-boxs .box-2 .lec-1::before,
+.lectures-ar .lec-boxs .box-3 .lec-1::before,
+.lectures-ar .lec-boxs .box-4 .lec-1::before,
+.lectures-ar .lec-boxs .box-5 .lec-1::before,
+.lectures-ar .lec-boxs .box-6 .lec-1::before,
+.lectures-ar .lec-boxs .box-7 .lec-1::before {
+  content: "01";
+}
+.lectures-ar .lec-boxs .box-1 .lec-2::before,
+.lectures-ar .lec-boxs .box-2 .lec-2::before,
+.lectures-ar .lec-boxs .box-3 .lec-2::before,
+.lectures-ar .lec-boxs .box-4 .lec-2::before,
+.lectures-ar .lec-boxs .box-5 .lec-2::before,
+.lectures-ar .lec-boxs .box-6 .lec-2::before,
+.lectures-ar .lec-boxs .box-7 .lec-2::before {
+  content: "02";
+}
+.lectures-ar .lec-boxs .box-1 .lec-3::before,
+.lectures-ar .lec-boxs .box-2 .lec-3::before,
+.lectures-ar .lec-boxs .box-3 .lec-3::before,
+.lectures-ar .lec-boxs .box-4 .lec-3::before,
+.lectures-ar .lec-boxs .box-5 .lec-3::before,
+.lectures-ar .lec-boxs .box-6 .lec-3::before,
+.lectures-ar .lec-boxs .box-7 .lec-3::before {
+  content: "03";
+}
+.lectures-ar .lec-boxs .box-1 .lec-4::before,
+.lectures-ar .lec-boxs .box-2 .lec-4::before,
+.lectures-ar .lec-boxs .box-3 .lec-4::before,
+.lectures-ar .lec-boxs .box-4 .lec-4::before,
+.lectures-ar .lec-boxs .box-5 .lec-4::before,
+.lectures-ar .lec-boxs .box-6 .lec-4::before,
+.lectures-ar .lec-boxs .box-7 .lec-4::before {
+  content: "04";
+}
+.lectures-ar .lec-boxs .box-1 .lec-5::before,
+.lectures-ar .lec-boxs .box-2 .lec-5::before,
+.lectures-ar .lec-boxs .box-3 .lec-5::before,
+.lectures-ar .lec-boxs .box-4 .lec-5::before,
+.lectures-ar .lec-boxs .box-5 .lec-5::before,
+.lectures-ar .lec-boxs .box-6 .lec-5::before,
+.lectures-ar .lec-boxs .box-7 .lec-5::before {
+  content: "05";
+}
+.lectures-ar .lec-boxs .box-1 .lec-6::before,
+.lectures-ar .lec-boxs .box-2 .lec-6::before,
+.lectures-ar .lec-boxs .box-3 .lec-6::before,
+.lectures-ar .lec-boxs .box-4 .lec-6::before,
+.lectures-ar .lec-boxs .box-5 .lec-6::before,
+.lectures-ar .lec-boxs .box-6 .lec-6::before,
+.lectures-ar .lec-boxs .box-7 .lec-6::before {
+  content: "06";
+}
+.lectures-ar .lec-boxs .box-1 .lec-7::before,
+.lectures-ar .lec-boxs .box-2 .lec-7::before,
+.lectures-ar .lec-boxs .box-3 .lec-7::before,
+.lectures-ar .lec-boxs .box-4 .lec-7::before,
+.lectures-ar .lec-boxs .box-5 .lec-7::before,
+.lectures-ar .lec-boxs .box-6 .lec-7::before,
+.lectures-ar .lec-boxs .box-7 .lec-7::before {
+  content: "07";
+}
+
+.top-ar {
+  position: relative;
+}
+.top-ar .images img {
+  width: 25%;
+}
+@media screen and (max-width: 768px) {
+  .top-ar .images img {
+    width: 90%;
+  }
+}
+
+.team-ar .cards .card {
+  width: 190px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+.team-ar .cards .card-inner {
+  width: inherit;
+  height: inherit;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.team-ar .cards .card-inner img {
+  width: 100%;
+  height: 100%;
+}
+.team-ar .cards .card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+.team-ar .cards .circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#adf7f2, #15aaff);
+  border-radius: 50%;
+  position: absolute;
+}
+.team-ar .cards .circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+.team-ar .cards .circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+}/*# sourceMappingURL=home-ar.css.map */

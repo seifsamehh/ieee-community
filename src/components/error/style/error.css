@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;800&display=swap");
+.error {
+  background: linear-gradient(to right, #1a5581, #307fba, #60a6dc);
+  background-size: 400% 400%;
+  animation: animate 10s infinite ease-in-out;
+}
+@keyframes animate {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.error h1 span {
+  transform: translateY(-20%);
+}
+@media screen and (max-width: 768px) {
+  .error h2 {
+    font-size: 5rem;
+  }
+}
+.error button {
+  font-size: 1.3rem !important;
+  letter-spacing: 1px;
+  font-weight: 800;
+  background-color: #fff;
+  color: #1a5581;
+  padding: 1rem;
+}/*# sourceMappingURL=error.css.map */

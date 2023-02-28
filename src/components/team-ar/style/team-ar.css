@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;500;800&display=swap");
+.team-page-ar {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+.team-page-ar .important .card {
+  width: 190px;
+  height: 390px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+.team-page-ar .important .special {
+  width: 290px;
+  height: 450px;
+}
+.team-page-ar .important .card-inner {
+  width: inherit;
+  height: inherit;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.team-page-ar .important .card-inner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team-page-ar .important .card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+.team-page-ar .important .circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#adf7f2, #15aaff);
+  border-radius: 50%;
+  position: absolute;
+}
+.team-page-ar .important .circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+.team-page-ar .important .circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+}
+.team-page-ar .cards .card {
+  width: 190px;
+  height: 350px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+.team-page-ar .cards .card-inner {
+  width: inherit;
+  height: inherit;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.team-page-ar .cards .card-inner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team-page-ar .cards .card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+.team-page-ar .cards .circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#adf7f2, #15aaff);
+  border-radius: 50%;
+  position: absolute;
+}
+.team-page-ar .cards .circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+.team-page-ar .cards .circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+}/*# sourceMappingURL=team-ar.css.map */

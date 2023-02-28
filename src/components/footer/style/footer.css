@@ -1,0 +1,67 @@
+.footer {
+  cursor: auto;
+  background-color: #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+.footer .logo {
+  width: 100%;
+  background-color: #1a5581;
+}
+.footer .content {
+  width: 100%;
+}
+.footer .content p {
+  color: #1a5581;
+  font-weight: 800;
+}
+.footer .content .seif {
+  color: #000;
+}
+.footer .content .seif a {
+  --text: #2B3044;
+  --line: #BBC1E1;
+  --line-active: #1a5581;
+  position: relative;
+  color: #1a5581;
+  margin: 0 var(--spacing, 0px);
+  padding-left: 0.5rem;
+  transition: margin 0.25s;
+}
+.footer .content .seif a svg {
+  cursor: pointer;
+  width: 340px;
+  height: 58px;
+  position: absolute;
+  left: 55%;
+  bottom: -5px;
+  transform: translate(-50%, 7px) translateZ(0);
+  fill: none;
+  stroke: var(--stroke, var(--line));
+  stroke-linecap: round;
+  stroke-width: 2px;
+  stroke-dasharray: var(--offset, 69px) 278px;
+  stroke-dashoffset: 361px;
+  transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;
+}
+@media screen and (max-width: 768px) {
+  .footer .content .seif a svg {
+    width: 130px;
+  }
+}
+.footer .content .seif a:hover {
+  --spacing: 4px;
+  --stroke: var(--line-active);
+  --stroke-delay: .1s;
+  --offset: 180px;
+}
+.footer .quote {
+  width: 100%;
+  color: #1a5581;
+}/*# sourceMappingURL=footer.css.map */

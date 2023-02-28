@@ -1,0 +1,37 @@
+// start global variables
+$main-color: #1a5581;
+$light: #fff;
+// end global variables
+.header {
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    img {
+        width: 20%;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    button {
+        font-size: 1.3rem !important;
+        letter-spacing: 1px;
+        font-weight: 800;
+    }
+}
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: .3s;
+    button {
+        cursor: pointer !important;
+    }
+}
+.nav.active {
+    background-color: $light;
+    color: $main-color;
+    img {
+        background-color: $main-color;
+    }
+}

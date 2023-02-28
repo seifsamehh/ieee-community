@@ -1,0 +1,223 @@
+.desktop .intro .heading-box h1 {
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 768px) {
+  .desktop .intro .heading-box h1 {
+    font-size: 3.6rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1290px) {
+  .desktop .intro .heading-box h1 {
+    font-size: 3rem;
+  }
+}
+.desktop .intro .heading-box .dev {
+  letter-spacing: 50px;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .desktop .intro .heading-box .dev {
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+    -webkit-text-stroke-width: 1px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1290px) {
+  .desktop .intro .heading-box .dev {
+    -webkit-text-stroke-width: 1px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desktop .about {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desktop .about h1 {
+    font-size: 2.4rem;
+  }
+}
+.desktop .about p {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+@media screen and (max-width: 768px) {
+  .desktop .about p {
+    padding: 1rem;
+  }
+}
+.desktop .roadmap {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+  .desktop .roadmap h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desktop .roadmap .boxs {
+    flex-direction: column;
+  }
+}
+.desktop .roadmap .boxs .box-1,
+.desktop .roadmap .boxs .box-2 {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: 0.5s;
+}
+@media screen and (max-width: 768px) {
+  .desktop .roadmap .boxs .box-1,
+  .desktop .roadmap .boxs .box-2 {
+    width: 100%;
+    height: 100%;
+  }
+}
+.desktop .roadmap .boxs .box-1 p,
+.desktop .roadmap .boxs .box-2 p {
+  text-align: center;
+}
+.desktop .roadmap .boxs .box-1 img,
+.desktop .roadmap .boxs .box-2 img {
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .desktop .roadmap .boxs .box-1 img,
+  .desktop .roadmap .boxs .box-2 img {
+    width: 70%;
+  }
+}
+.desktop .roadmap .boxs .box-1:hover {
+  background-color: #953cac;
+  border: 2px solid #953cac;
+}
+.desktop .roadmap .boxs .box-2:hover {
+  background-color: #91262f;
+  border: 2px solid #91262f;
+}
+@media screen and (max-width: 768px) {
+  .desktop .lectures {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desktop .lectures h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+}
+.desktop .lectures .lec-boxs .box-1 button {
+  padding: 0.8em 1.8em;
+  border: 2px solid #fff;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  color: #fff;
+}
+.desktop .lectures .lec-boxs .box-1 button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #fff;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.desktop .lectures .lec-boxs .box-1 button:hover::before {
+  width: 105%;
+}
+.desktop .lectures .lec-boxs .box-1 button:hover {
+  color: #111;
+}
+.desktop .lectures .lec-boxs .box-1 .lec-1 {
+  width: 290px;
+  height: 290px;
+  background-color: #fff;
+  color: #1a5581;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, rgba(255, 255, 255, 0.2) 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
+  transition: 0.3s;
+}
+.desktop .lectures .lec-boxs .box-1 .lec-1:hover {
+  transform: translateY(-10px);
+}
+@media screen and (max-width: 768px) {
+  .desktop .lectures .lec-boxs .box-1 .lec-1 h1 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desktop .lectures .lec-boxs .box-1 .lec-1 {
+    width: 250px;
+    height: 250px;
+  }
+}
+.desktop .lectures .lec-boxs .box-1 .lec-1::before {
+  content: "01";
+  position: absolute;
+  top: 0;
+  right: 10%;
+  color: #1a5581;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.desktop .team .cards .card {
+  width: 190px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+.desktop .team .cards .card-inner {
+  width: inherit;
+  height: inherit;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.desktop .team .cards .card-inner img {
+  width: 100%;
+  height: 100%;
+}
+.desktop .team .cards .card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+.desktop .team .cards .circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#adf7f2, #15aaff);
+  border-radius: 50%;
+  position: absolute;
+}
+.desktop .team .cards .circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+.desktop .team .cards .circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+}/*# sourceMappingURL=desktop.css.map */

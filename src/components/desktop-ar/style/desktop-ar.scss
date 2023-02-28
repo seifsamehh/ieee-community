@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;500;800&display=swap');
+// start global variables
+$main-color: #1a5581;
+$light: #fff;
+// end global variables
+.desktop-ar {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    // start intro
+    .intro-ar {
+        .heading-box {
+            h1 {
+                @media screen and (max-width: 768px) {
+                    font-size: 4rem;
+                }
+                @media (min-width: 1024px) and (max-width: 1290px) {
+                    font-size: 3rem;
+                }
+            }
+            .dev {
+                color: $light;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: $light;
+                @media screen and (max-width: 768px) {
+                    font-size: 2.3rem;
+                    letter-spacing: 3px;
+                    -webkit-text-stroke-width: 1px;
+                }
+                @media (min-width: 1024px) and (max-width: 1290px) {
+                    -webkit-text-stroke-width: 1px;
+                }
+            }
+        }
+    }
+    // end intro
+    // start about
+    .about-ar {
+        @media screen and (max-width: 768px) {
+            margin-top: 3rem;
+        }
+        h1 {
+            @media screen and (max-width: 768px) {
+                font-size: 2.4rem;
+            }
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 2;
+            @media screen and (max-width: 768px) {
+                padding: 1rem;
+            }
+        }
+    }
+    // end about
+    // start roadmap
+    .roadmap-ar {
+        overflow-x: hidden;
+        h1 {
+            @media screen and (max-width: 768px) {
+                margin-top: 3rem;
+                font-size: 3rem;
+            }
+        }
+        .boxs {
+            @media screen and (max-width: 768px) {
+                flex-direction: column-reverse;
+            }
+            .box-1,
+            .box-2 {
+                width: 30%;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 1rem;
+                border: 2px solid $light;
+                border-radius: 10px;
+                padding: 1rem;
+                transition: 0.5s;
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                    height: 100%;
+                }
+                p {
+                    text-align: center;
+                }
+                img {
+                    width: 30%;
+                    @media screen and (max-width: 768px) {
+                        width: 70%;
+                    }
+                }
+            }
+            .box-1 {
+                &:hover {
+                    background-color: #953cac;
+                    border: 2px solid #953cac;
+                }
+            }
+            .box-2 {
+                &:hover {
+                    background-color: #91262f;
+                    border: 2px solid #91262f;
+                }
+            }
+        }
+    }
+    // end roadmap
+    // start lectures
+    .lectures-ar {
+        @media screen and (max-width: 768px) {
+            margin-top: 3rem;
+        }
+        h1 {
+            @media screen and (max-width: 768px) {
+                margin-top: 3rem;
+                font-size: 3rem;
+            }
+        }
+        .lec-boxs {
+            .box-1 {
+                button {
+                    padding: 0.8em 1.8em;
+                    border: 2px solid $light;
+                    position: relative;
+                    overflow: hidden;
+                    background-color: transparent;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    transition: .3s;
+                    z-index: 1;
+                    color: $light;
+                }
+                button::before {
+                    content: '';
+                    width: 0;
+                    height: 300%;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%) rotate(45deg);
+                    background: $light;
+                    transition: .5s ease;
+                    display: block;
+                    z-index: -1;
+                }
+                button:hover::before {
+                    width: 105%;
+                }
+                button:hover {
+                    color: #111;
+                }
+                .lec-1 {
+                    width: 290px;
+                    height: 290px;
+                    background-color: $light;
+                    color: $main-color;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    position: relative;
+                    box-shadow: rgba(255,255,255, 0.4) 0px 5px, rgba(255,255,255, 0.3) 0px 10px, rgba(255,255,255, 0.2) 0px 15px, rgba(255,255,255, 0.1) 0px 20px, rgba(255,255,255, 0.05) 0px 25px;
+                    transition: 0.3s;
+                    &:hover {
+                        transform: translateY(-10px);
+                    }
+                    h1 {
+                        @media screen and (max-width: 768px) {
+                            font-size: 2.4rem;
+                        }
+                    }
+                    @media screen and (max-width: 768px) {
+                        width: 250px;
+                        height: 250px;
+                    }
+                    &::before {
+                        content: '01';
+                        position: absolute;
+                        top: 0;
+                        right: 10%;
+                        color: $main-color;
+                        font-size: 4rem;
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+    }
+    // end lectures
+    // start team ar
+    .team-ar {
+        .cards {
+            .card {
+                width: 190px;
+                transition: all 0.2s;
+                position: relative;
+                cursor: pointer;
+            }
+            .card-inner {
+                width: inherit;
+                height: inherit;
+                padding: 1rem;
+                background: rgba(255,255,255,.05);
+                box-shadow: 0 0 10px rgba(0,0,0,0.25);
+                backdrop-filter: blur(10px);
+                border-radius: 8px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .card:hover {
+                transform: scale(1.04) rotate(1deg);
+            }
+            .circle {
+                width: 100px;
+                height: 100px;
+                background: radial-gradient(#adf7f2, #15aaff);
+                border-radius: 50%;
+                position: absolute;
+            }
+            .circle:nth-child(1) {
+                top: -25px;
+                left: -25px;
+            }
+            .circle:nth-child(2) {
+                bottom: -25px;
+                right: -25px;
+            }
+        }
+    }
+    // end team ar
+}
