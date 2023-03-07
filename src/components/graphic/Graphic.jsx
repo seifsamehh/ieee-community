@@ -170,6 +170,16 @@ const Graphic = () => {
               </div>
             </a>
           </div>
+          <div className="box-7 flex flex-col justify-center items-center gap-8">
+            <a
+              href="https://drive.google.com/file/d/1oAgy3fBJbhzUPMPEkaI6lWfIiNYLqUqf/view?usp=share_link"
+              target="_blank"
+            >
+              <div className="lec-7 flex justify-center items-center">
+                <h1 className="text-center text-5xl">SESSION SEVEN</h1>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
       {/* end lectures */}

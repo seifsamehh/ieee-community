@@ -107,6 +107,16 @@ const GraphicAr = () => {
           <h1 className="text-center text-7xl mb-12">المحاضرات</h1>
         </AnimationOnScroll>
         <div className="lec-boxs flex justify-center flex-wrap gap-12">
+          <div className="box-7 flex flex-col justify-center items-center gap-8">
+            <a
+              href="https://drive.google.com/file/d/1oAgy3fBJbhzUPMPEkaI6lWfIiNYLqUqf/view?usp=share_link"
+              target="_blank"
+            >
+              <div className="lec-7 flex justify-center items-center">
+                <h1 className="text-center text-5xl">المحاضرة السابعة</h1>
+              </div>
+            </a>
+          </div>
           <div className="box-6 flex flex-col justify-center items-center gap-8">
             <a
               href="https://drive.google.com/file/d/1T-May3b80UN2NqJI9z3AEqwsvFuIuoWa/view?usp=sharing"

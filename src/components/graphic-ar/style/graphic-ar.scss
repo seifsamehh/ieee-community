@@ -211,13 +211,15 @@ $light: #fff;
       .box-3,
       .box-4,
       .box-5,
-      .box-6 {
+      .box-6,
+      .box-7 {
         .lec-1,
         .lec-2,
         .lec-3,
         .lec-4,
         .lec-5,
-        .lec-6 {
+        .lec-6,
+        .lec-7 {
           width: 290px;
           height: 290px;
           background-color: $light;
@@ -280,6 +282,11 @@ $light: #fff;
         .lec-6 {
           &::before {
             content: "06";
+          }
+        }
+        .lec-7 {
+          &::before {
+            content: "07";
           }
         }
       }
